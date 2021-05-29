@@ -1,0 +1,126 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main(){
+	
+	//to see how a separate task works, uncomment it.
+	
+	setlocale(LC_ALL, "rus");
+	/*
+	//1 task
+	int a;
+	double b;
+	float c;
+	bool d;
+	cout << "Enter 4 variables: " << endl;
+	cin >> a >> b >> c >> d;
+	cout << "int: " << a << ", double: " << b << ", float: " << c << ", bool: " << d;
+	
+	//2 task
+	char a, b, c, d, e;
+	cout << "Enter a 5-character word: " << endl;
+	cin >> a >> b >> c >> d >> e;
+	cout << a << " " << b << " " << c << " " << d << " " << e;
+	
+	//3 task
+	float a, b;
+	cout << "Enter 2 numbers: " << endl;
+	cin >> a >> b;
+	cout << "Multiplication of these numbers: " << a*b << ", the sum: " << a+b << ", difference: " << abs(a-b) << ", arithmetic mean: " << (a+b)/2;
+	
+	//4 task
+	int m, n;
+	cout << "Enter the number of hares and cages: " << endl;
+	cin >> m >> n;
+	cout << "Maximum number of hares guaranteed to be in one cage:: " << ceil(m/n);
+	
+	//5 task
+	cout << "Sum of numbers from 1 to 100 = 50 * 101: " << 50*101;
+	
+	//6 task
+	float a;
+	cout << "Enter the side of the square: " << endl;
+	cin >> a;
+	cout << "Perimeter " << 4*a << ". Figure area: " << a*a;
+	
+	//7 task
+	int a, b;
+	cout << "Enter two catheters: " << endl;
+	cin >> a >> b;
+	cout << "Hypotenuse length " << sqrt(a*a + b*b);
+	
+	//8 task
+	int N, k;
+	cout << "Enter the number of students and the number of apples: ";
+	cin >> N >> k;
+	cout << "Each student will receive: " << k/N << " there will be " << k%N << " apple left in the basket';
+	
+	//9 task
+	int x;
+	cout << "Enter the x value: ";
+	cin >> x;
+	cout << "The value of the function fx=x**2+3*x-100 = " << x*x+3*x-100;
+	
+	//10 task
+	cout << "Макшаков Николай БФБО-01-20";
+	
+	//11 task
+	int a = 3, b = -10, c = 1, D, x1, x2;
+	D = b*b - 4*a*c;
+	if (D < 0)
+		{
+			cout << "No roots";
+		}
+	else
+		{
+			if (D == 0)
+				{
+					x1 = -1*b/(2*a);
+					cout << "One root: ";
+				}
+			else
+				{
+					x1 = (-1*b+sqrt(D))/(2*a);
+					x2 = (-1*b-sqrt(D))/(2*a);
+					cout << "First root: " << x1 << ", second root: " << x2;
+				}
+		}
+		
+	//12 task
+	double a, b, E;
+	cout << "Enter the probabilities of two events: ";
+	cin >> a >> b;
+	E = -1 * (a * (log(a) * log(2)) + b * (log(b) * log(2)));
+	cout << "Entropy is equal to: " << E;
+	
+	//13 task
+	int chask, losh, bl;
+	cout << "Enter the number of cups ";
+	cin >> chask;
+	losh = chask;
+	bl = losh;
+	cout << "Total number of cutlery: " << chask+losh+bl;
+	
+	//14 task
+	float a, b, c;
+	cout << "Enter a and b: ";
+	cin >> a >> b;
+	c = b;
+	b = a;
+	a = c;
+	cout << "The value of a became: " << a << ", the value of b became: " << b;
+	
+	//15 task
+	float a, b;
+	cout << "Enter a and b: ";
+	cin >> a >> b;
+	a = a + b;
+	b = a - b;
+	a = a - b;
+	cout << "The value of a became: " << a << ", The value of b became: " << b;
+	*/
+	
+	return 0;
+}
